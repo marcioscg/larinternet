@@ -1,0 +1,295 @@
+<html lang="pt-br">
+	<head>
+		<!-- Required meta tags -->
+	    <meta charset="utf-8"/>
+	    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
+	    <title>Formulário</title>
+
+	    <!-- Bootstrap CSS -->
+	    <link rel="stylesheet" href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	    <!-- CUSTOM CSS -->
+		<!-- <link rel="stylesheet" href="default.css"/> -->
+		<style>
+			.table-bordered td, .table-bordered th{
+				padding: 4px;
+			}
+			.font-weight-bold {
+    margin-bottom: 1px;
+}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<header class="row">
+				<div class="col-md-12">
+					<p class="text-center font-weight-bold">TERMO DE ADESÃO AO CONTRATO DE PRESTAÇÃO DE SERVIÇOS DE TELECOMUNICAÇÕES</p>
+				</div>
+				<div class="col-md-10">
+					<p>
+						<span class="font-weight-bold">%provedornome%</span><br>
+						<span>RUA MARCOS BERTOLDI, 443, SL 01 - CAMPO DE SANTANTA - CURITIBA /PR </span><br>
+						<span>CNPJ: %provedorcnpj% | IE: 90554040-86</span>
+						<span> | Ato Anatel: 8035</span><br>
+						<!-- <span>Endereço: %provedorendereco% - %provedorestado% - %provedorcidade% / %provedorestado% - CEP:  %provedorcep%</span> -->
+						<span>Fone: %provedortelefone%</span><br>	
+						<span>S.A.C.: (41) 97400 1234</span><br>
+						<span>Site: %provedorsite%</span><br>
+						<span>Email: %provedoremail%</span><br>
+					</p>
+				</div>
+				<div class="col-md-2">
+					<img src="http://164.163.44.62:8080/images/logo.png" class="logo" alt="" style="width: 248px; margin-top: 60px; margin-left: -91px;">
+				</div>
+			</header>
+			<section class="row">
+				<table class="table table-bordered">
+				  <tbody>
+					<tr>
+					  <td colspan="2"><font class="font-weight-bold">DADOS DO CONTRATANTE</font></td>
+					</tr>
+					<tr>
+					  <td colspan="4">Nome Completo/Empresarial: %nomecliente%</td>
+					</tr>
+					<tr>
+					  <td > CPF/CNPJ: %cpfcliente% </td>
+					  <td colspan="2"> RG/IE: %rgcliente% </td>
+					  <td > Contato: </td>
+					</tr>
+					<tr>
+					  <td colspan="2"> Telefone Residêncial/Comercial: %fonecliente% </td>
+					  <td > Telefone Celular: %celularcliente% </td>
+					  <td > Telefone Recado: </td>
+					</tr>
+					<tr>
+					  <td colspan="2"><font class="font-weight-bold">ENDEREÇO DE INSTALAÇÃO</font></td>
+					</tr>
+					<tr>
+					  <td colspan="4">Endereço: %enderecorescliente%, Nº %numerocliente%, Compl. %complrescliente%</td>
+					</tr>
+					<tr>
+					  <td > Bairro: %bairrorescliente% </td>
+					  <td > Cidade:  %cidaderescliente% </td>
+					  <td > UF: %estadorescliente% </td>
+					  <td > CEP: %ceprescliente% </td>
+					</tr>
+					<tr>
+					  <td colspan="2"><font class="font-weight-bold">ENDEREÇO DE COBRANÇA</font></td>
+					</tr>
+					<tr>
+					  <td colspan="4">Endereço: %enderecorescliente%, Nº %numerocliente%, Compl. %complrescliente%</td>
+					</tr>
+					<tr>
+					  <td > Bairro: %bairrorescliente% </td>
+					  <td > Cidade: %cidaderescliente% </td>
+					  <td > UF: %estadorescliente% </td>
+					  <td > CEP: %ceprescliente% </td>
+					</tr>
+				  </tbody>
+				</table>
+			</section>
+			<section class="row">
+				<p class="text-center col-md-12 font-weight-bold">CLÁUSULA PRIMEIRA - DA ADESÃO AO CONTRATO</p>
+				<p class="text-justify">1.1 Pelo presente instrumento, o CONTRATANTE adere aos termos e condições do Contrato de Prestação de Serviços de Telecomunicações o qual encontra-se registrado no Cartório de Registro de Títulos e Documentos da Cidade de Curitiba, no Estado do Paraná, sob o n.º XXXXXXXX e disponível no endereço virtual eletrônico www.larinternet.com.br</p>
+				<p class="text-justify">1.2 O CONTRATANTE declara neste ato DETER PLENA CAPACIDADE PARA CELEBRAR O PRESENTE, HAVER RECEBIDO, LIDO, COMPREENDIDO E CONCORDADO COM OS TERMOS E CONDIÇÕES DO CONTRATO DE PRESTAÇÃO DOS SERVIÇOS DE TELECOMUNICAÇÕES.</p>
+				<p class="text-center col-md-12 font-weight-bold">CLÁUSULA SEGUNDA - DO(S) PLANO(S) ESCOLHIDO PELO CONTRATANTE</p>
+				<p class="text-justify">2.1 A CONTRATADA prestará o serviço de acordo com o PLANO DE SERVIÇO escolhido de forma espontânea pelo CONTRATANTE, conforme detalhamento abaixo:</p>
+			</section>
+			<section class="row">
+				<table class="table table-bordered text-center">
+					<tbody>
+						<tr>
+							<td colspan="5" class="font-weight-bold">NOME DO PLANO</td>
+							<td colspan="4" class="font-weight-bold">VELOCIDADE DOWNLOAD / UPLOAD</td>
+						</tr>
+						<tr>
+							<td colspan="5">%planodeacesso%</td>
+							<td colspan="4">%velocidadeplano%</td>
+						</tr>
+						<tr>
+							<td colspan="9"></td>
+						</tr>
+						<tr>
+							<td colspan="3"></td>
+							<td colspan="3">TAXA DE TRANSMISSÃO INSTANTÂNEA</td>
+							<td colspan="3">TAXA DE TRANSMISSÃO MÉDIA</td>
+						</tr>
+						<tr>
+							<td colspan="3">GARANTIA DE BANDA</td>
+							<td colspan="3">40 % da Velocidade Contratada</td>
+							<td colspan="3">80 % da Velocidade Contratada</td>
+						</tr>
+						<tr>
+							<td colspan="9" style="font-weight:bold;">TECNOLOGIA</td>
+						</tr>
+						<tr>
+							<td ></td>
+							<td colspan="2">RADIOFREQUÊNCIA</td>
+							<td ></td>
+							<td colspan="2">CABO DE REDE</td>
+							<td ></td>
+							<td colspan="2">FIBRA ÓPTICA</td>
+						</tr>
+						<tr>
+							<td colspan="9" style="font-weight:bold;">TIPO DO PLANO</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td colspan="2">PRÉ-PAGO</td>
+							<td></td>
+							<td colspan="2">COM COMODATO</td>
+							<td colspan="3"></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td colspan="2">PÓS-PAGO</td>
+							<td></td>
+							<td colspan="2">COM FIDELIDADE</td>
+							<td colspan="3"></td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+			<section class="row">
+				<p class="text-justify">
+					<br>2.2	O prazo de instalação do SCM pela CONTRATADA é de até XX (xxxxx) dias, contados da data da ciência pela CONTRATADA, do ACEITE pelo CONTRATANTE ao presente TERMO DE ADESÃO.
+				</p>
+				<p class="text-justify">
+					2.3  O CONTRATANTE declara aceitar o serviço acima descriminado a ser executado em seu ponto de atendimento (residência, escritório, comércio, indústria, etc), estando tal plano vinculado as condições de instalação e estrutura necessária para o atendimento do serviço, desta forma, após o aceite desse serviço, em razão da mudança das condições previamente acordadas, alterações físicas terão custos conforme valores vigentes, que deverão ser consultados junto à nossos canais de atendimento.
+				</p>
+				<p class="text-justify">
+					2.4  O CONTRATANTE, definiu e teve acesso no ato da assinatura deste TERMO, ao  plano que irá usufruir, bem como a data de vencimento e valores aplicáveis ao contratado, portanto, alterações de planos somente poderão ser solicitadas a cada período mínimo de 60 dias. Alterações com prazos inferiores podem gerar custos ao cliente, conforme valores vigentes. A solicitação deverá ocorrer com ao menos 10 dias úteis de antecedência junto à nossos canais de atendimento.
+				</p>
+				<br>
+			</section>
+			<section class="row">
+				<p class="col-md-12 text-center font-weight-bold">
+					CLÁUSULA TERCEIRA - DOS VALORES E FORMAS DE PAGAMENTOS
+				</p>
+				<p class="text-justify">
+					3.1 	Para ativação e prestação dos serviços contratados, o CONTRATANTE deverá pagar a CONTRATADA o valor na condição descrita a seguir:
+				</p>
+				<table class="table table-bordered text-center">
+					<tbody>
+						<tr>
+							<td class="font-weight-bold">INSTALAÇÃO</td>
+						</tr>
+						<tr>
+							<td >Valor Total:<BR/>R$ XX,XX </td>
+							<td >Nº de Parcelas:<BR/>XX</td>
+							<td >R$ Parcelas:<br/>R$ XX,XX</td>
+							<td >Forma de pagto:<BR/>Cartão Créd – Cart Déb</td>
+						</tr>
+						<tr>
+							<td class="font-weight-bold">MENSALIDADE</td>
+						</tr>
+						<tr>
+							<td >Valor da Mensalidade:<BR/>R$ %valor% </td>
+							<td >Data de Pagamento:<BR/>%diavencimento%</td>
+							<td >Forma de cobrança:<BR/>BOLETO</td>
+							<td >Forma de Entrega:<BR/>EMAIL</td>
+						</tr>
+						
+					</tbody>
+				</table>
+				<p class="text-justify">
+					3.2	A assistência técnica ou manutenção deverá ser solicitada por meio da Central de Atendimento ao CONTRATANTE, onde a PRESTADORÁ efetuará o atendimento ao CONTRATANTE em até 48 horas de dias uteis, contados do momento da finalização da solicitação. 
+				</p>
+				<p class="text-justify">
+					3.3	Os valores referentes à Assistência Técnica e Manutenção devem ser consultados com a CONTRATADA previamente a solicitação de serviço.
+				</p>
+			</section>
+			<section class="row">
+				<p class="col-md-12 text-center font-weight-bold">
+					CLÁUSULA QUARTA – DO COMODATO
+				</p>
+				<p class="text-justify">
+					4.1	Havendo a disponibilização dos equipamentos, estes estarão descritos nos termos abaixo:
+				</p>
+				<table class="table table-bordered text-center">
+					<tbody>
+						<tr>
+							<td class="font-weight-bold">DESCRIÇÃO </td>
+							<td class="font-weight-bold">QUANTIDADE </td>
+							<td class="font-weight-bold">VALOR DE MERCADO </td>
+						</tr>
+						<tr>
+							<td >Antena Rádio Freq 5.8Ghz para Internet</td>
+							<td > </td>
+							<td >R$ 310,00</td>
+						</tr>
+						<tr>
+							<td >Fonte de Alimentação da Antena Rádio </td>
+							<td > </td>
+							<td >R$ 40,00 </td>
+						</tr>
+						<tr>
+							<td >ONU (Conversor Fibra Óptica)</td>
+							<td > </td>
+							<td >R$ 180,00 </td>
+						</tr>
+						<tr>
+							<td >Fonte de Alimentação da ONU </td>
+							<td > </td>
+							<td >R$ 40,00 </td>
+						</tr>
+						<tr>
+							<td >CX de Atendimento (PTO) </td>
+							<td > </td>
+							<td >R$ 32,00 </td>
+						</tr>
+						<tr>
+							<td >Cordão Óptico 2 Metros </td>
+							<td > </td>
+							<td >R$ 14,00 </td>
+						</tr>
+					</tbody>
+				</table>
+				<p class="text-justify">
+					4.2	É de inteira responsabilidade do CONTRATANTE o uso, fruição e guarda adequada dos equipamentos cedidos em COMODATO, devendo reparar à CONTRATADA no caso de roubo, furto, perda ou extravio dos mesmos, assim como no caso de defeitos ocasionados pelo mau uso ou pela falta de zelo. Orienta-se a utilização de filtros de linhas e a retirada dos equipamentos da tomada na ocorrência de chuvas com descargas elétricas e em casos de instabilidades na rede de energia elétrica. Em qualquer hipótese de rescisão contratual, o CONTRATANTE deverá devolver à CONTRATADA os equipamentos cedidos em COMODATO, ou ressarci-los em valor correspondente ao preço de mercado na época da rescisão. Caso a devolução ou ressarcimento não ocorra de forma voluntária, a CONTRATADA  poderá exigir sua quitação por meio de todas as formas permitidas em lei.
+				</p>
+			</section>
+			<section class="row">
+				<p class="col-md-12 text-center font-weight-bold">
+					CLÁUSULA QUINTA - DAS DISPOSIÇÕES GERAIS
+				</p>
+				<p class="text-justify">
+					5.1 A partir do ACEITE deste TERMO DE ADESÃO ficam as partes obrigadas ao fiel cumprimento das cláusulas contidas no Contrato de Prestação de Serviços de Telecomunicações. 
+				</p>
+				<p class="text-justify">
+					5.2 Este contrato entra em vigor na data da assinatura e terá validade enquanto houver obrigações entre as partes decorrentes da prestação do(s) serviço(s) e poderá ser rescindido a qualquer momento sem ônus ao CONTRATANTE, ou poderá viger por período determinado, conforme estará previsto em CONTRATO DE PERMANÊNCIA, conforme as regras estabelecidas pela ANATEL.
+				</p>
+			</section>
+			<section class="row">
+				<p class="col-md-12 text-center font-weight-bold">
+					CLÁUSULA SEXTA - DA SUCESSÃO E DO FORO
+				</p>
+				<p class="text-justify">
+					6.1 O presente instrumento obriga herdeiros e/ou sucessores, a qualquer tempo, sendo neste ato eleito pelas partes o foro da comarca da cidade de Curitiba, no estado do Paraná, competente para dirimir quaisquer questões referentes ao presente, com renúncia expressa de qualquer outro, por mais privilegiado que seja. 
+					E, por estar de acordo, o CONTRATANTE adere ao presente documento por sua livre vontade, declarando ainda, não estar aceitando o presente sob premente coação, estado de necessidade ou outra forma de vício de consentimento, tendo conhecimento de todo direito e obrigação que assume nesta data.
+				</p>
+			</section>
+			<footer class="row">
+				<p class="col-md-12 text-left">
+					LOCAL, %data%.
+				</p>
+				<p class="text-left" style="width: 49%;padding-top: 50px;">
+					_______________________________________________________________________<br>
+					NOME DO TITULAR: %nomecliente%<br>
+					CPF/CNPJ:
+				</p>
+				<p style="width: 49%;padding-top: 50px;">
+					________________________________________________________________________<br>
+					NOME DO RESPONSÁVEL INDICADO (NA AUSÊNCIA DO TITULAR):<br>
+					%responsavel%<br>
+					CPF/CNPJ:
+				</p>
+			</footer>
+		</div>
+
+
+		<!-- Bootstrap/JQuery JS -->
+		<script src="https://getbootstrap.com/docs/4.0/dist/js/bootstrap.min.js"></script>
+		<!-- OTHER JS -->
+		
+	</body>
+</html>
